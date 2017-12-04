@@ -26,11 +26,8 @@ initial_pos,size,code,number,description
 45,2,V5030,3,Lugar de nascimento
 47,1,V0504,4,Morou em outra Unidade da Federação ou país estrangeiro
 48,1,V0505,5,Morava na Unidade da Federação na data de referência
-"Os quesitos 6 a 9 (V5061 a V5090) referem-se à pessoa residente na Unidade da Federação, na data de referência,
-que, anteriormente, já morou em outra Unidade da Federação ou país estrangeiro",,,,
 49,1,V5061,6,"Código 2 - na data de referência, tinha até 4 anos ininterruptos de residência na Unidade da Federação"
-50,1,V5062,6,"Tempo de residência na Unidade da Federação
-(até 4 anos)"
+50,1,V5062,6,"Tempo de residência na Unidade da Federação (até 4 anos)"
 51,1,V5063,6,"Código 4 - na data de referência, tinha de 5 a 9 anos ininterruptos de residência na Unidade da Federação"
 52,1,V5064,6,Tempo de residência na Unidade da Federação (de 5 a 9 anos)
 53,1,V5065,6,"Código 6 - na data de referência, tinha 10 anos ou mais de residência na Unidade da Federação"
@@ -39,8 +36,6 @@ que, anteriormente, já morou em outra Unidade da Federação ou país estrangei
 57,2,V5090,9,Lugar de residência anterior
 59,1,V0510,10,Morava no município na data de referência
 60,1,V0511,11,Morou em outro município na Unidade da Federação
-"O quesito 12 (V5121 a V5125) refere-se à pessoa residente no município, na data de referência, que já morou,
-anteriormente, em outro município da Unidade da Federação de residência",,,,
 61,1,V5121,12,"Código 2 - na data de referência, tinha até 4 anos ininterruptos de residência no município"
 62,1,V5122,12,Tempo de residência no município (até 4 anos)
 63,1,V5123,12,"Código 4 - na data de referência, tinha de 5 a 9 anos ininterruptos de residência no município"
@@ -56,7 +51,6 @@ anteriormente, em outro município da Unidade da Federação de residência",,,,
 74,1,V0604,4,O curso que frequenta é seriado
 75,1,V0605,5,Série que frequenta
 76,1,V0606,6,Anteriormente frequentou escola ou creche
-"Os quesitos 7a a 11 (V6007 a V0611) referem-se à pessoa que não frequentava mas, anteriormente, frequentou escola ou creche",,,,
 77,2,V6007,7a,Curso mais elevado que frequentou anteriormente
 79,1,V6070,7b,Duração do ensino fundamental que frequentou anteriormente
 80,1,V0608,8,Este curso que frequentou anteriormente era seriado
@@ -83,14 +77,12 @@ anteriormente, em outro município da Unidade da Federação de residência",,,,
 108,4,V7090,9,Código da ocupação no trabalho da semana de referência
 112,5,V7100,10,Código da atividade principal do empreendimento no trabalho da semana de referência
 117,1,V0711,11,Posição na ocupação no trabalho da semana de referência
-,,,,de referência,,,,
 118,1,V7121,12,Código 2 - recebia normalmente rendimento mensal em dinheiro no mês de referência no(s) trabalho(s) da semana de referência
 119,12,V7122,12,Rendimento mensal em dinheiro que recebia normalmente no mês de referência no(s) trabalho(s) da semana de referência
 131,1,V7124,12,Código 4 - recebia normalmente rendimento mensal em produtos ou mercadorias no mês de referência no(s) trabalho(s) da semana de referência
 132,12,V7125,12,Rendimento mensal em valor dos produtos ou mercadorias que recebia normalmente no mês de referência no(s) trabalho(s) da semana de referência
 144,1,V7127,12,Código 6 - recebia normalmente rendimento mensal somente em benefícios no mês de referência no(s) trabalho(s) da semana de referência
 145,1,V7128,12,Código 8 - era trabalhador não remunerado no(s) trabalho(s) da semana de referência
-,,,,semana de referência,,,,
 146,2,V0713,13,Número de horas habitualmente trabalhadas por semana no(s) trabalho(s) da semana de referência
 148,1,V0714,14,Cuidava dos afazeres domésticos na semana de referência
 149,2,V0715,15,Número de horas que dedicava normalmente por semana aos afazeres domésticos
@@ -102,24 +94,15 @@ anteriormente, em outro município da Unidade da Federação de residência",,,,
 156,1,V9005,5,Número de trabalhos que tinha na semana de referência
 157,4,V9906,6,Código da ocupação no trabalho principal da semana de referência
 161,5,V9907,7,Código da atividade principal do empreendimento no trabalho principal da semana de referência
-"O quesito 8 (V9008) refere-se à posição na ocupação da pessoa ocupada em empreendimento do
- grupamento agrícola no trabalho único ou principal da semana de referência",,,,
 166,2,V9008,8,Posição na ocupação no trabalho principal da semana de referência
-"Os quesitos 9 e 10 (V9009 e V9010) referem-se ao empregado permanente em empreendimento do grupamento agrícola
-(exceto serviços auxiliares) no trabalho único ou principal da semana de referência",,,,
 168,1,V9009,9,Recebia do empregador alguma área para produção particular
 169,1,V9010,10,Tinha parceria com o empregador
 170,1,V90101,10a,Foi contratado somente por pessoa responsável pelo estabelecimento
-"Os quesitos 11 e 12 (V9011 e V9012) referem-se ao empregado temporário em empreendimento do grupamento agrícola
-no trabalho único ou principal da semana de referência",,,,
 171,1,V9011,11,Foi contratado somente por pessoa(s) responsável(véis) pelo(s) estabelecimento(s) em que trabalhou como empregado temporário no mês de referência
 172,1,V9012,12,"Foi contratado como empregado temporário, somente por intermediário (empresa empreiteira, empreiteiro, “gato”, etc.) no mês de referência"
 173,1,V90121,12a,Foi contratado por intemédio de
-"Os quesitos 13 e 14 (V9013 e V9014) referem-se ao empregado em empreendimento do grupamento agrícola
-(exceto o empregado permanente nos serviços auxiliares) no trabalho único ou principal da semana de referência",,,,
 174,1,V9013,13,Teve ajuda de trabalhador não remunerado membro da unidade domiciliar no mês de referência
 175,1,V9014,14,"Número de trabalhadores não remunerados membros da unidade domiciliar, independentemente da idade, que ajudaram à pessoa que era empregado no mês de referência"
-"O quesito 15 (V9151 a V9164) refere-se ao empregador em empreendimento de atividade da agricultura, silvicultura ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos, no trabalho único ou principal da semana de referência",,,,
 176,1,V9151,15,Código 1 - referente à 1ª parcela ou parcela única do empreendimento
 177,11,V9152,15,Área informada na 1ª parcela ou parcela única do empreendimento
 188,7,V9154,15,"Equivalência em m², referente à unidade de medida de superfície em V9152"
@@ -129,12 +112,10 @@ no trabalho único ou principal da semana de referência",,,,
 214,1,V9161,15,Código 5 - referente à 3ª parcela do empreendimento
 215,11,V9162,15,Área informada na 3ª parcela do empreendimento
 226,7,V9164,15,"Equivalência em m², referente à unidade de medida de superfície em V9162"
-,,,,serviços auxiliares) no trabalho único ou principal da semana de referência,,,,
 233,1,V9016,16,"Tinha pelo menos um empregado temporário, no mês de referência, no trabalho principal da semana de referência"
 234,1,V9017,17,"Número de empregados temporários, no mês de referência, no trabalho principal da semana de referência"
 235,1,V9018,18,"Tinha pelo menos um empregado permanente, no mês de referência, no trabalho principal da semana de referência"
 236,1,V9019,19,"Número de empregados permanentes, no mês de referência, no trabalho principal da semana de referência"
-"O quesito 20 (V9201 a V9214) refere-se ao conta própria em empreendimento de atividade da agricultura, silvicultura ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos, no trabalho único ou principal da semana de referência",,,,
 237,1,V9201,20,Código 2 - referente à 1ª parcela ou parcela única do empreendimento
 238,11,V9202,20,Área informada na 1ª parcela ou parcela única do empreendimento
 249,7,V9204,20,"Equivalência em m², referente à unidade de medida de superfície em V9202"
@@ -144,8 +125,6 @@ no trabalho único ou principal da semana de referência",,,,
 275,1,V9211,20,Código 6 - referente à 3ª parcela do empreendimento
 276,11,V9212,20,Área informada na 3ª parcela do empreendimento
 287,7,V9214,20,"Equivalência em m², referente à unidade de medida de superfície em V9212"
-"Os quesitos 21 a 28 (V9021 a V9028) referem-se ao conta própria ou empregador em empreendimento
-do grupamento agrícola (exceto serviços auxiliares) no trabalho único ou principal da semana de referência",,,,
 294,1,V9021,21,Condição em relação ao empreendimento do grupamento agrícola
 295,1,V9022,22,Parceria contratada neste trabalho
 296,1,V9023,23,"Forma contratada de pagamento pelo uso do bem, móvel ou imóvel, arrendado para o empreendimento"
@@ -154,17 +133,13 @@ do grupamento agrícola (exceto serviços auxiliares) no trabalho único ou prin
 299,1,V9026,26,"Comprador que adquiriu a totalidade, ou a maior parte, da produção principal do empreendimento que foi vendida no período de referência de 365 dias."
 300,1,V9027,27,Algum tipo de produção desenvolvida no empreendimento foi consumida como alimentação pelos membros da unidade domiciliar no mês de referência
 301,1,V9028,28,"Parcela da alimentação consumida pelos membros da unidade domiciliar, no mês de referência, que foi retirada de produção desenvolvida no empreendimento"
-"O quesito 29 (V9029) refere-se à posição na ocupação da pessoa ocupada em empreendimento de
-atividade não agrícola no trabalho único ou principal da semana de referência",,,,
 302,1,V9029,29,Posição na ocupação no trabalho principal da semana de referência
-,,,,empregado permanente nos serviços auxiliares da atividade agrícola no trabalho único ou principal da semana de referência,,,,
 303,1,V9030,30,A jornada normal desse trabalho estava totalmente compreendida no período de 5 horas da manhã às 10 horas da noite
 304,1,V9031,31,A jornada normal desse trabalho estava totalmente compreendida no período noturno de 10 horas da noite às 5 horas da manhã seguinte
 305,1,V9032,32,Setor do emprego no trabalho principal da semana de referência
 306,1,V9033,33,Área do emprego no trabalho principal da semana de referência
 307,1,V9034,34,"Era militar do Exército, Marinha de Guerra ou Aeronáutica no trabalho principal da semana de referência"
 308,1,V9035,35,Era funcionário público estatutário no trabalho principal da semana de referência
-,,,, referência,,,,
 309,1,V9036,36,"Prestava serviço doméstico remunerado em mais de um domicílio, no mês de referência"
 310,1,V9037,37,Exercia habitualmente esse trabalho pelo menos uma vez por semana
 311,1,V9038,38,"Número de dias por semana que, habitualmente, prestava serviço doméstico remunerado"
@@ -172,18 +147,14 @@ atividade não agrícola no trabalho único ou principal da semana de referênci
 313,1,V9040,40,"Número de pessoas ocupadas, no mês de referência, no empreendimento do trabalho principal da semana de referência"
 314,1,V9041,41,"Forma contratada, verbalmente ou por escrito, para o cálculo da remuneração no trabalho principal da semana de referência"
 315,1,V9042,42,Tinha carteira de trabalho assinada no trabalho principal da semana de referência
-"Os quesitos 43 a 47 (V9043 a V9047) referem-se aos benefícios recebidos como remuneração do trabalho único ou principal da semana de referência, por empregado ou trabalhador doméstico",,,,
 316,1,V9043,43,Recebeu auxílio para moradia no mês de referência
 317,1,V9044,44,Recebeu auxílio para alimentação no mês de referência
 318,1,V9045,45,Recebeu auxílio para transporte no mês de referência
 319,1,V9046,46,Recebeu auxílio para educação ou creche no mês de referência
 320,1,V9047,47,Recebeu auxílio para saúde ou reabilitação no mês de referência
-,,,, da atividade agrícola no trabalho único ou principal da semana de referência,,,,
 321,1,V9048,48,"Número de empregados, no mês de referência, no empreendimento do trabalho principal da semana de referência"
-"Os quesitos 49 e 50 (V9049 e V9050) referem-se ao conta própria ou empregador com, no máximo, dez empregados em empreendimento de atividade não agrícola ou dos serviços auxiliares da atividade agrícola no trabalho único ou principal da semana de referência",,,,
 322,1,V9049,49,"Tinha pelo menos um sócio ocupado, no mês de referência, no empreendimento do trabalho principal da semana de referência"
 323,1,V9050,50,"Número de sócios ocupados, no mês de referência, no empreendimento do trabalho principal da semana de referência"
-,,,,semana de referência,,,,
 324,1,V9051,51,"Tinha pelo menos um trabalhador não remunerado, no mês de referência, no trabalho principal da semana de referência"
 325,1,V9052,52,"Número de trabalhadores não remunerados ocupados, no mês de referência, no trabalho principal da semana de referência"
 326,1,V9531,53,"Código 1 - recebia normalmente rendimento mensal em dinheiro, no mês de referência, no trabalho principal da semana de referência"
@@ -191,67 +162,44 @@ atividade não agrícola no trabalho único ou principal da semana de referênci
 339,1,V9534,53,"Código 3 - recebia normalmente rendimento mensal em produtos ou mercadorias, no mês de referência, no trabalho principal da semana de referência"
 340,12,V9535,53,"Rendimento mensal em valor dos produtos ou mercadorias que recebia normalmente, no mês de referência, no trabalho principal da semana de referência"
 352,1,V9537,53,"Código 5 - recebia normalmente rendimento mensal somente em benefícios, no mês de referência, no trabalho principal da semana de referência"
-"O quesito 53a (V90531) refere-se ao empregado no setor privado (exceto trabalhador doméstico), conta própria ou empregador no trabalho único ou principal da semana de referência",,,,
 353,1,V90531,53a,O empreendimento tem registro no Cadastro Nacional de Pessoa Jurídica - CNPJ
 354,1,V90532,53b,Esse empreendimento possuía fatura ou nota fiscal para emitir aos clientes
 355,1,V90533,53c,Esse empreendimento entregava contracheque a seus funcionários
-"Os quesitos 54 a 57 (V9054 a V9057) referem-se ao trabalho único ou principal da pessoa ocupada na semana de referência, exclusive o trabalhador na produção para o próprio consumo  ou na construção para o próprio uso",,,,
 356,1,V9054,54,Tipo de estabelecimento ou onde era exercido o trabalho principal da semana de referência
 357,1,V9055,55,Morava em domicílio que estava no mesmo terreno ou área do estabelecimento em que tinha trabalho
 358,1,V9056,56,Ia direto do domicílio em que morava para o trabalho
 359,1,V9057,57,Tempo de percurso diário de ida da residência para o local de trabalho
-,,,,referência,,,,
 360,2,V9058,58,Número de horas habitualmente trabalhadas por semana no trabalho principal da semana de referência
 362,1,V9059,59,Era contribuinte para instituto de previdência no trabalho principal da semana de referência
 363,1,V9060,60,Instituto de previdência para o qual contribuía no trabalho principal da semana de referência
 364,2,V9611,61,"Número de anos no trabalho principal da semana de referência, contados até a data de referência"
 366,2,V9612,61,"Número de meses no trabalho principal da semana de referência, contados até a data de referência"
-"O quesito 62 (V9062) refere-se à saída de algum trabalho no período de captação de 358 dias,
-caso a pessoa estivesse no trabalho único ou principal da semana de referência a menos de 1 ano",,,,
 368,1,V9062,62,Saiu de algum trabalho no período de captação de 358 dias
 369,1,V9063,63,De quantos trabalhos saiu no período de captação de 358 dias
-"Os quesitos 64 a 66 (V9064 a V9066) referem-se ao trabalho único ou principal,
-do qual a pessoa saiu no período de captação de 358 dias",,,,
 370,2,V9064,64,Número de meses que permaneceu nesse trabalho anterior no período de captação de 358 dias
 372,1,V9065,65,Era empregado com carteira de trabalho assinada nesse trabalho anterior
 373,1,V9066,66,Recebeu seguro-desemprego depois que saiu desse emprego anterior
-"Os quesitos 67 a 70 (V9067 a V9070) referem-se à pessoa que não era ocupada na semana de referência,
-ou seja, que não tinha trabalho nessa semana ",,,,
 374,1,V9067,67,Teve algum trabalho no período de captação de 358 dias
 375,1,V9068,68,"Exerceu tarefas em cultivo, pesca ou criação de animais, destinados à própria alimentação das pessoas moradoras no domicílio, no período de captação de 358 dias"
 376,1,V9069,69,"Exerceu tarefas em construção de prédio, cômodo, poço ou outras obras de construção, destinadas ao próprio uso das pessoas moradoras no domicílio, no período de captação de 358 dias"
 377,1,V9070,70,De quantos trabalhos saiu no período de captação de 358 dias
-"Os quesitos 71 a 86 (V9971 a V9862) referem-se à pessoa ocupada no período de captação de 358 dias,
-que não tinha trabalho na semana de referência ou cujo trabalho da semana de referência
-não era o principal do período de referência de 365 dias",,,,
 378,4,V9971,71,Código da ocupação no trabalho anterior do período de captação de 358 dias
 382,5,V9972,72,Código da atividade principal do empreendimento no trabalho anterior do período de captação de 358 dias
-"O quesito 73 (V9073) refere-se à posição na ocupação da pessoa, no trabalho que teve anteriormente,
-no período de captação de 358 dias em empreendimento do grupamento agrícola",,,,
 387,2,V9073,73,Posição na ocupação no trabalho anterior do período de captação de 358 dias
 389,1,V9074,74,Nesse emprego anterior recebia do empregador alguma área para produção particular
 390,1,V9075,75,Nesse emprego anterior tinha parceria com o empregador
 391,1,V9076,76,Condição em relação ao empreendimento agrícola nesse trabalho anterior
-"O quesito 77 (V9077) refere-se à posição na ocupação da pessoa, no trabalho anterior que teve,
-no período de captação de 358 dias em empreendimento do grupamento não agrícola",,,,
 392,1,V9077,77,Posição na ocupação nesse trabalho anterior
-"Os quesitos 78 a 81 (V9078 a V9081) referem-se ao empregado no trabalho anterior
-que teve no período de captação de 358 dias",,,,
 393,1,V9078,78,Setor do emprego nesse trabalho anterior
 394,1,V9079,79,Área do emprego nesse trabalho anterior
 395,1,V9080,80,"Era militar do Exército, Marinha de Guerra ou Aeronáutica nesse trabalho anterior"
 396,1,V9081,81,Era funcionário público estatutário nesse trabalho anterior
-,,,, dias,,,,
 397,1,V9082,82,Prestava serviço doméstico remunerado em mais de um domicílio nos últimos 30 dias em que esteve nesse trabalho anterior
-"O quesito 83 (V9083) refere-se ao empregado (exceto militar ou funcionário público estatutário)
-ou trabalhador doméstico no trabalho anterior que teve no período de captação de 358 dias",,,,
 398,1,V9083,83,Tinha carteira de trabalho assinada nesse trabalho anterior
 399,1,V9084,84,"Após sair desse emprego anterior, recebeu seguro-desemprego"
 400,1,V9085,85,Era contribuinte de instituto de previdência por esse trabalho anterior
 401,2,V9861,86,Número de anos nesse trabalho anterior
 403,2,V9862,86,Número de meses nesse trabalho anterior
-"Os quesitos 87 a 89 (V9087 a V9892) referem-se à pessoa ocupada no período de referência de 365 dias
-(tinha trabalho na semana de referência ou no período de captação de 358 dias)",,,,
 405,1,V9087,87,Era associado a algum sindicato no mês de referência
 406,1,V90871,87.1,"Embora não fosse associado, costumava participar de alguma atividade promovida por sindicato ligado a algum trabalho que teve no período de referência de 365 dias"
 407,1,V908721,87.2,Costumava participar de assembleias
@@ -290,7 +238,6 @@ ou trabalhador doméstico no trabalho anterior que teve no período de captaçã
 440,1,V908887,88.8,Aspectos tratados em negociações referem-se a outro
 441,1,V9891,89,Faixa de idade em que começou a trabalhar
 442,2,V9892,89,Idade com que começou a trabalhar
-,,,,da pessoa com mais de um trabalho nessa semana.,,,,
 444,4,V9990,90,Código da ocupação no trabalho secundário da semana de referência
 448,5,V9991,91,Código da atividade principal do empreendimento no trabalho secundário da semana de referência
 453,1,V9092,92,Posição na ocupação no trabalho secundário da semana de referência
@@ -319,11 +266,8 @@ ou trabalhador doméstico no trabalho anterior que teve no período de captaçã
 522,1,V9106,106,Teve algum trabalho antes do período de referência de 365 dias
 523,1,V9107,107,"Exerceu tarefas em cultivo, pesca ou criação de animais, destinados à própria alimentação das pessoas moradoras no domicílio, antes do período de referência de 365 dias"
 524,1,V9108,108,"Exerceu tarefas em construção de prédio, cômodo, poço ou outras obras de construção, destinadas ao próprio uso das pessoas moradoras no domicílio,  antes do período de referência de 365 dias"
-,,,, ,,,,
 525,2,V1091,109,"Número de anos, contados até a data de referência, desde que saiu do último trabalho"
 527,2,V1092,109,"Número de meses, contados até a data de referência, desde que saiu do último trabalho"
-"Os quesitos 110 a 114 (V9910 a V9114) referem-se à pessoa que não tinha trabalhado no período de referência de 365 dias e
-saiu do último trabalho que teve no período de referência de menos de 4 anos",,,,
 529,4,V9910,110,Código da ocupação no útimo trabalho que teve no período de referência de menos de 4 anos
 533,5,V9911,111,Código da atividade principal do empreendimento nesse último trabalho que teve no período de referência de menos de 4 anos
 538,1,V9112,112,Posição na ocupação no último trabalho no período de referência de menos de 4 anos
@@ -339,8 +283,6 @@ saiu do último trabalho que teve no período de referência de menos de 4 anos"
 548,2,V9921,121a,Número de horas que dedicava normalmente por semana aos afazeres domésticos
 550,1,V9122,122,"Era aposentado de instituto de previdência federal (INSS), estadual ou municipal ou do governo federal na semana de referência"
 551,1,V9123,123,"Era pensionista de instituto de previdência federal (INSS), estadual ou municipal ou do governo federal na semana de referência"
-"Os quesitos 124 e 125 (V9124 a V1273) referem-se aos rendimentos que não eram oriundos de trabalho
-da pessoa de 10 anos ou mais de idade",,,,
 552,1,V9124,124,"Recebia normalmente rendimento que não era proveniente de trabalho (pensão alimentícia ou de fundo de pensão, abono de permanência, aluguel, doação, juros de caderneta de poupança, dividendos ou outro qualquer) no mês de referência"
 553,2,V1251,125,"Código 01 - recebia normalmente rendimento de aposentadoria de instituto de previdência ou do governo federal, no mês de referência"
 555,12,V1252,125,"Rendimento de aposentadoria de instituto de previdência ou do governo federal que recebia, normalmente, no mês de referência"
@@ -380,12 +322,9 @@ da pessoa de 10 anos ou mais de idade",,,,
 696,1,V1113,11,"Código 5 - Não sabe o número de filhos tidos nascidos mortos, do sexo masculino, até a data de referência"
 697,1,V1114,11,"Código 7 - Não sabe o número de filhos tidos nascidos mortos, do sexo feminino, até a data de referência"
 698,1,V1115,11a,O informante desta parte foi
-699,2,V4801,,"Nível de ensino, duração do ensino fundamental e série que frequentavam
-(todos os estudantes)"
-701,2,V4802,,"Nível de ensino e grupos de séries do ensino fundamental que frequentavam
-(todos os estudantes)"
-703,2,V4803,,"Anos de estudo
-(todas as pessoas)"
+699,2,V4801,,"Nível de ensino, duração do ensino fundamental e série que frequentavam (todos os estudantes)"
+701,2,V4802,,"Nível de ensino e grupos de séries do ensino fundamental que frequentavam (todos os estudantes)"
+703,2,V4803,,"Anos de estudo (todas as pessoas)"
 705,1,V4704,,Condição de atividade na semana de referência para pessoas de 10 anos ou mais de idade
 706,1,V4805,,Condição de ocupação na semana de referência para pessoas de 10 anos ou mais de idade
 707,2,V4706,,Posição na ocupação no trabalho principal da semana de referência para pessoas de 10 anos ou mais de idade
@@ -412,8 +351,7 @@ da pessoa de 10 anos ou mais de idade",,,,
 791,5,V4729,,Peso da pessoa
 796,5,V4732,,Peso da família
 801,1,V4735,,"Controle da tabulação de fecundidade, para mulheres com 10 anos ou mais de idade"
-802,1,V4838,,"Grupos de anos de estudo
-(todas as pessoas)"
+802,1,V4838,,"Grupos de anos de estudo (todas as pessoas)"
 803,1,V6502,,Criança de 5 a 17 anos de idade
 804,2,V4741,,"Número de componentes do domícilio (exclusive as pessoas cuja condição na unidade domiciliar era pensionista, empregado doméstico ou parente do empregado doméstico) "
 806,12,V4742,,Rendimento mensal domiciliar per capita
@@ -465,7 +403,6 @@ da pessoa de 10 anos ou mais de idade",,,,
 885,2,V3604,4,Número de meses em que praticou esporte com essa frequência
 887,1,V3605,5,"Em dia que costumava praticar esporte, o tempo que normalmente dedicava era de"
 888,1,V3606,6,"No período de referência de 365 dias, praticou mais de uma modalidade de esporte"
-"Os quesitos 7 a 13 devem referir-se ao esporte que a pessoa considerou como principal, no período de referência de 365 dias",,,,
 889,5,V3607,7,Código do principal esporte que praticou no período de referência de 365 dias
 894,1,V3608,8,Costumava praticar esse esporte em
 895,1,V3609,9,"Nesse período, praticou esse principal esporte com orientação de professor ou instrutor"
@@ -480,12 +417,10 @@ da pessoa de 10 anos ou mais de idade",,,,
 908,2,V3618,18,Idade com que deixou de praticar esporte
 910,1,V3619,19,Por que motivo parou de praticar esporte
 911,1,V3620,20,"No período de referência de 365 dias, praticou alguma atividade física que não considera esporte, no seu tempo livre (fora do horário de trabalho ou da educação física na escola)"
-"Os quesitos 21 a 31 destinam-se à caracterização da atividade física que a pessoa não considerava como esporte e que praticou no seu tempo livre, no período de referência de 365 dias",,,,
 912,1,V3621,21,Por que motivo praticou atividade física no período de referência de 365 dias
 913,1,V3622,22,Frequência com que costumava praticar atividade física no período de referência de 365 dias
 914,2,V3623,23,Número de meses em que praticou atividade física com essa frequência
 916,1,V3624,24,"Em dia que costumava praticar atividade física, o tempo que normalmente dedicava era de"
-"Os quesitos 25 a 31 referem-se à atividade física única ou à que a pessoa considerou como principal, no período de referência de 365 dias",,,,
 917,5,V3625,25,Código da atividade física que praticou nesse período
 922,1,V3626,26,Costumava praticar essa atividade física em
 923,1,V3627,27,"Nesse período, praticou essa principal atividade física com orientação de professor ou instrutor"
