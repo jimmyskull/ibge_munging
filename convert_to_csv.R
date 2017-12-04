@@ -1,7 +1,5 @@
 # Copyright (R) Paulo Urio
 # Do whatever you want with this code, I don’t care.
-#library("bit64")
-#library("data.table")
 library("descr")  # fwf2csv
 library("readr")  # read_csv, write_csv
 
