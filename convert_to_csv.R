@@ -1,7 +1,23 @@
+# Copyright (R) Paulo Urio
+# Do whatever you want with this code, I don’t care.
 library("bit64")
 library("data.table")
 library("descr")
 
+# Reads a raw IBGE input |data.fname| and converts it to CSV |output.fname|,
+# adding the columns according to the feature dictionary |dict.fname|.
+#
+# Parameters:
+#   data.fname: a FWF file obtaing from IBGE [1]
+#   dict.fname: a CSV file with the first file columns of the IBGE’s feature
+#               dictionary (also availabe at [1]).  If you need to generate,
+#               just copy the first five columns and add this header:
+#               "initial_pos,size,code,number,description"
+#               See a examples in data/dict/*.csv
+#   output.fname: the path for the resulting CSV file
+#
+# [1] Source of datasets: ftp://ftp.ibge.gov.br/Trabalho_e_Rendimento/
+# Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/microdados/2015/
 ibge_to_csv <- function(data.fname, dict.fname, output.fname)
 {
     cat(sprintf("Reading dictionary '%s'\n", dict.fname))
