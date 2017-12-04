@@ -1,0 +1,86 @@
+initial_pos,size,code,number,description
+1,4,V0101,,Ano de referência
+5,2,UF,2,Unidade da Federação
+5,8,V0102,2,Número de controle
+13,3,V0103,3,Número de série
+16,2,V0104,4,Tipo de entrevista
+18,2,V0105,5,Total de moradores
+20,2,V0106,6,Total de moradores de 10 anos ou mais
+22,1,V0201,1,Espécie do domicílio
+23,1,V0202,2,Tipo do domicílio
+24,1,V0203,3,Material predominante na construção das paredes externas do prédio
+25,1,V0204,4,Material predominante na cobertura (telhado) do domicílio
+26,2,V0205,5,Número de cômodos do domicílio
+28,2,V0206,6,Número de cômodos servindo de dormitório
+30,1,V0207,7,Condição de ocupação do domicílio
+31,12,V0208,8,Aluguel mensal pago no mês de referência
+43,12,V0209,9,Prestação mensal paga no mês de referência
+55,1,V0210,10,Terreno onde está localizado o domicílio é próprio
+56,1,V0211,11,Tem água canalizada em pelo menos um cômodo do domicílio
+57,1,V0212,12,Proveniência da água canalizada utilizada no domicílio
+58,1,V0213,13,Água utilizada no domicílio é canalizada de rede geral de distribuição para a propriedade
+59,1,V0214,14,Água utilizada no domicílio é de poço ou nascente localizado na propriedade
+60,1,V0215,15,Tem banheiro ou sanitário no domicílio ou na propriedade
+61,1,V0216,16,Uso do banheiro ou sanitário
+62,2,V2016,16a,Número de banheiros ou sanitários
+64,1,V0217,17,Forma de escoadouro do banheiro ou sanitário
+65,1,V0218,18,Destino do lixo domiciliar
+66,1,V0219,19,Forma de iluminação do domicílio
+67,1,V0220,20,Tem telefone móvel celular
+68,1,V2020,20a,Tem telefone fixo convencional
+69,1,V0221,21,Tem fogão de duas ou mais bocas
+70,1,V0222,22,Tem fogão de uma boca
+71,1,V0223,23,Tipo de combustível utilizado no fogão
+72,1,V0224,24,Tem filtro d’água
+73,1,V0225,25,Tem rádio
+74,1,V0226,26,Tem televisão em cores
+75,1,V0227,27,Tem televisão em preto e branco
+76,2,V02270,27.1,Número de televisões de tela fina
+78,2,V02271,27.1,Número de televisões de tubo
+80,1,V02272,27.2,Tem televisão por assinatura
+81,1,V02273,27.3,Tem televisão com recepçao de sinal digital de tv aberta
+82,1,V02274,27.4,Tem televisão com antena parabólica
+83,1,V2027,27a,Tem aparelho de DVD
+84,1,V0228,28,Tem geladeira
+85,1,V0229,29,Tem freezer
+86,1,V0230,30,Tem máquina de lavar roupa
+87,1,V0231,31,Tem microcomputador
+88,1,V0232,32,Microcomputador é utilizado para acessar a Internet
+89,1,V02321,32.1,Tem tablet
+90,1,V02322,32.2,Tem acesso à Internet no próprio domicilio
+91,1,V02323,32.3,Para acessar à Internet utiliza-se microcomputador
+92,1,V02324,32.3,Para acessar à Internet utiliza-se telefone celular
+93,1,V02325,32.3,Para acessar à Internet utiliza-se tablet
+94,1,V02326,32.3,Para acessar à Internet utiliza-se tv
+95,1,V02327,32.3,Para acessar à Internet utiliza-se outro equipamento eletrônico
+96,1,V02424,32.4,O acesso à Internet é feito através de sinal de rede celular 3G ou 4G
+97,1,V02425,32.4,O acesso à Internet é feito através de conexão discada por linha telefônica
+98,1,V02426,32.4,O acesso à Internet é feito por banda larga
+99,1,V2032,32a,Tem carro ou motocicleta de uso pessoal
+100,1,V4105,,Código de situação censitária
+101,1,V4107,,Código de área censitária
+102,2,V4600,,Dia de referência
+104,2,V4601,,Mês de referência
+106,4,V4602,,Estrato
+110,2,V4604,,Número de municípios selecionados no estrato
+112,12,V4605,,Probabilidade do município
+124,3,V4606,,Número de setores selecionados no município
+127,12,V4607,,Probabilidade do setor
+139,6,V4608,,Intervalo de seleção do domicílio
+145,9,V4609,,Projeção de população
+154,3,V4610,,Inverso da fração
+157,5,V4611,,Peso do domicílio
+162,12,V4614,,"Rendimento mensal domiciliar para todas as unidades domiciliares (exclusive o rendimento das pessoas cuja condição na unidade domiciliar era pensionista, empregado doméstico ou parente do empregado doméstico e das pessoas de menos de 10 anos de idade)"
+174,4,UPA,,Delimitação do município
+178,7,V4617,,STRAT - Identificação de estrato de município auto-representativo e não auto-representativo
+185,7,V4618,,PSU - Unidade primária de amostragem
+192,2,V4620,,"Número de componentes do domícilio (exclusive as pessoas cuja condição na unidade domiciliar era pensionista, empregado doméstico ou parente do empregado doméstico) "
+194,12,V4621,,Rendimento mensal domiciliar per capita
+206,2,V4622,,Faixa do rendimento mensal domiciliar per capita
+208,1,V4624,,Forma de abastecimento de água
+209,1,V4628,,Marca de seleção de domicílio para o Suplemento de Aspectos das Relações de Trabalho e/ou Suplemento de Práticas de Esporte e Atividade Física
+210,7,V4629,,Projeção da população obtida com os dados dos moradores dos domicílios da pesquisa - Suplemento de Práticas de Esporte e Atividade Física
+217,5,V4630,,Domínio do pós-estrato do Suplemento de Práticas de Esporte e Atividade Física
+222,7,V4632,,Projeção da população obtida com os dados dos moradores dos domicílios da pesquisa - Suplemento de Aspectos das Relações de Trabalho
+229,5,V4633,,Domínio do pós-estrato do Suplemento de Aspectos das Relações de Trabalho
+234,8,V9992,,Data de geração do arquivo de microdados
